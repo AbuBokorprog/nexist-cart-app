@@ -9,11 +9,44 @@
 - Duplicate prevention
 - Empty cart UI
 
-## Setup
+# Setup Instructions
+
+## 1. Clone the Repository
+
+git clone https://github.com/AbuBokorprog/nexist-cart-app
+
+## 2. Go to Project Folder
+
+cd nexist-cart-app
+
+## 3. Install Dependencies
 
 npm install
 
+## 4. Run Development Server
+
 npm run dev
+
+## 5. Open in Browser
+
+http://localhost:3000
+
+---
+
+# Production Build (Optional)
+
+## Build Project
+
+npm run build
+
+## Start Production Server
+
+npm start
+
+# Requirements
+
+- Node.js v18 or later
+- npm installed
 
 ## Problems Solved
 
