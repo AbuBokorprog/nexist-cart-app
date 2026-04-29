@@ -3,6 +3,7 @@
 import { Product } from "@/types/product";
 import { useDispatch } from "react-redux";
 import { removeFromCart } from "@/redux/cartSlice";
+import { Trash2 } from "lucide-react";
 
 export default function CartItem({ item }: { item: Product }) {
   const dispatch = useDispatch();
@@ -16,9 +17,9 @@ export default function CartItem({ item }: { item: Product }) {
 
       <button
         onClick={() => dispatch(removeFromCart(item.id))}
-        className="text-red-500 hover:text-red-700 font-medium"
+        className="text-red-500 hover:text-red-700 font-medium cursor-pointer"
       >
-        Remove
+        <Trash2 />
       </button>
     </div>
   );

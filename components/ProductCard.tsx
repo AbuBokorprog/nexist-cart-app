@@ -28,7 +28,7 @@ export default function ProductCard({ product }: { product: Product }) {
         className={`w-full py-2 rounded-xl font-medium transition ${
           exists
             ? "bg-gray-300 cursor-not-allowed"
-            : "bg-blue-600 hover:bg-blue-700 text-white"
+            : "bg-blue-600 hover:bg-blue-700 text-white cursor-pointer"
         }`}
       >
         {exists ? "Already Added" : "Add to Cart"}
